@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<suite name="Suite">
+    
+    <test name="Test1">
+    <classes>
+      <class name="bg.testScripts.weblinks.LinksTest"/>
+      <class name="bg.testScripts.weblinks.LinksTest2"/>
+      <class name="bg.testScripts.weblinks.TestAllLinks"/>
+    </classes>
+    </test> <!-- Test --> 
+  
+    <test name="Test2">
+    <classes>
+      <class name="bg.testScripts.virterminal.AuthSaleCredit"/>
+      <class name="bg.testScripts.virterminal.TransactionLB23"/>
+    </classes>
+    </test> <!-- Test -->
+  
+     <test name="Test3">
+    <classes>
+      <class name="bg.testScripts.transactionCases.AuthAppCapture"/>
+      <class name="bg.testScripts.transactionCases.AuthAppCaptureHigh"/>
+      <class name="bg.testScripts.transactionCases.AuthAppCapturePartial"/>
+      <class name="bg.testScripts.transactionCases.SaleUnSettRefund"/>
+      <class name="bg.testScripts.transactionCases.SaleUnSettVoid"/>
+      <class name="bg.testScripts.transactionCases.SaleSettRefundFull"/>   
+      <class name="bg.testScripts.transactionCases.SaleSettRefundPartial"/>
+      <class name="bg.testScripts.transactionCases.SaleSettRefundHigh"/>
+      <class name="bg.testScripts.transactionCases.SaleSettVoidError"/>
+    </classes>  
+  </test> <!-- Test -->
+  
+    <test name="Test4">
+    <classes>
+      <class name="bg.testScripts.transactionCases.AchSaleUnSettRefund"/>
+      <class name="bg.testScripts.transactionCases.AchSaleUnSettVoid"/>
+      <class name="bg.testScripts.transactionCases.AchSaleSettRefundFull"/>   
+      <class name="bg.testScripts.transactionCases.AchSaleSettRefundPartial"/>
+      <class name="bg.testScripts.transactionCases.AchSaleSettRefundHigh"/>
+      <class name="bg.testScripts.transactionCases.AchSaleSettVoidError"/>
+    </classes>  
+  </test> <!-- Test -->
+  
+
+</suite> <!-- Suite -->

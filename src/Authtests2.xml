@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<suite name="Suite">
+    
+    <test name="Test1">
+    <classes>
+      <class name="test.java.LinksTest2"/>
+      <class name="test.java.TestAllLinks"/>
+    </classes>
+    </test> <!-- Test --> 
+  
+    <test name="Test2">
+    <classes>
+      <class name="test.java.TestAuthSaleCredit"/>
+      <class name="test.java.TestAchSaleCredit"/>
+      <class name="test.java.TestTransactionLB23"/>
+    </classes>
+    </test> <!-- Test -->
+  
+     <test name="Test3">
+    <classes>
+      <class name="test.java.AuthAppCapture"/>
+      <class name="test.java.AuthAppCaptureHigh"/>
+      <class name="test.java.AuthAppCapturePartial"/>
+      <class name="test.java.SaleUnSettRefund"/>
+      <class name="test.java.SaleUnSettVoid"/>
+    </classes>  
+  </test> <!-- Test -->
+  
+    <test name="Test4">
+    <classes>
+      <class name="test.java.AchSaleUnSettRefund"/>
+      <class name="test.java.AchSaleUnSettVoid"/>
+    </classes>  
+  </test> <!-- Test -->
+  
+
+</suite> <!-- Suite -->
